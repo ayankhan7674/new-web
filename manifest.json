@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "tool": "website_one_page",
+  "seed_url": "https://zeonbot.vercel.app/",
+  "seed_origin": "https://zeonbot.vercel.app:443",
+  "seed_host": "zeonbot.vercel.app",
+  "final_url": "https://zeonbot.vercel.app/?ff_seed=15",
+  "final_host": "zeonbot.vercel.app",
+  "origin_lock_mode": "host_only",
+  "captured_at": "2026-02-11T14:48:08.525312Z",
+  "base_href_used": false,
+  "base_href_value": null,
+  "budgets": {
+    "max_pages": 1,
+    "max_assets": 200,
+    "max_assets_per_page": 200,
+    "max_redirects": 5,
+    "max_css_import_depth": 2,
+    "max_html_bytes": 2097152,
+    "max_css_bytes": 1048576,
+    "max_asset_bytes": 104857600,
+    "max_total_asset_bytes": 52428800
+  },
+  "budgets_used": {
+    "pages": 1,
+    "assets": 8,
+    "total_asset_bytes": 342958
+  },
+  "counts": {
+    "html_pages": 1,
+    "assets_total": 9,
+    "assets_included": 8,
+    "assets_excluded": 1
+  },
+  "excluded": [
+    {
+      "url": "https://cdn.discordapp.com/avatars/1326609893855797268/a_9cb93575eac039e2fc4ed617f4243e17.gif",
+      "reason": "cross_origin_blocked"
+    }
+  ],
+  "mapping": {
+    "https://zeonbot.vercel.app/_next/static/chunks/ffcf0f3457c7d7be.css": {
+      "local_path": "assets/ebc1d678064852f14fbd8269d967aa8c3274744c7a26edf77b649fe6b84f8ebb.css",
+      "content_type": "text/css; charset=utf-8"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/1bffadaabf893a1e-s.7cd81963.woff2": {
+      "local_path": "assets/a28eb6d3ccb534ae0c94ca999371df024aab60b08c3c8a5720ee9e32fa0faaa2.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/2bbe8d2671613f1f-s.76dcb0b2.woff2": {
+      "local_path": "assets/8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/2c55a0e60120577a-s.2a48534a.woff2": {
+      "local_path": "assets/fccca918fea40089dacadc7045861314d1a6bc91f1f323cc1eeb22ebcdb321b5.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/5476f68d60460930-s.c995e352.woff2": {
+      "local_path": "assets/46dd4cdca58c26ae87cc6927657bf83b2e8abfc39ffd0ab176e301a8d28d22bf.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2": {
+      "local_path": "assets/c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/9c72aa0f40e4eef8-s.18a48cbc.woff2": {
+      "local_path": "assets/aebf2ab4a4ce6810d73c1ac7be7cafb4e5ec4cee2d6db5fb3e09691747ec4bd6.bin",
+      "content_type": "font/woff2"
+    },
+    "https://zeonbot.vercel.app/_next/static/media/ad66f9afd8947f86-s.7a40eb73.woff2": {
+      "local_path": "assets/a2e2c783ca6f9c20486e81e72a279203e86730bbf8f01ff6a5ee9dbd09e1c271.bin",
+      "content_type": "font/woff2"
+    }
+  },
+  "heuristics": {
+    "script_src_count": 16,
+    "meaningful_elements": 134,
+    "text_content_length": 3137
+  }
+}
